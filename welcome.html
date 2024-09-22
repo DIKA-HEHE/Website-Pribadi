@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Datang</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradient background */
+      color: rgb(255, 255, 255);
+      font-family: 'Roboto', sans-serif; /* Font modern */
+      overflow: hidden; /* Menyembunyikan scrollbar */
+    }
+    .welcome-container {
+      text-align: center;
+      padding: 40px;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.7); /* Latar belakang semi-transparan */
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Bayangan */
+      transform: translateY(-50px);
+      opacity: 0; /* Awalnya tidak terlihat */
+      animation: fadeInUp 0.8s forwards; /* Animasi masuk */
+    }
+    .btn-enter {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background-color: #e74c3c; /* Warna tombol */
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s; /* Transisi halus */
+    }
+    .btn-enter:hover {
+      background-color: #c0392b; /* Warna saat hover */
+    }
+    @keyframes fadeInUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <h1>Selamat Datang di Website Dika!</h1>
+    <p>Klik tombol di bawah untuk memasuki website.</p>
+    <a href="index.html" class="btn-enter">Masuk</a> <!-- Ganti "index.html" dengan nama file utama kamu -->
+  </div>
+</body>
+</html>

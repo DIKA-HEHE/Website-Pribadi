@@ -1,0 +1,249 @@
+/* Global Styles */
+#profile .social-icons {
+  display: flex;
+  justify-content: center; /* Menengahkan ikon */
+}
+
+#profile {
+  background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+  border: 1px solid #ddd; /* Border tipis */
+  border-radius: 10px; /* Sudut membulat */
+  padding: 20px; /* Padding untuk memberi ruang di dalam */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  text-align: center; /* Menengahkan teks */
+  margin: 50px 0; /* Jarak antara section ini dengan yang lain */
+
+}
+
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Typing Animation */
+  .header {
+    text-align: center;
+    background-color: #007bff;
+    padding: 50px 0;
+  }
+  
+  .typing-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    border-right: 2px solid #fff;
+    width: fit-content;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  /* Typing effect */
+  .typing-text {
+    animation: typing 3s steps(30, end), blink 0.5s step-end infinite alternate;
+  }
+  
+  /* Profile Section */
+  .profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; /* Atur sesuai ukuran yang kamu inginkan */
+    border-radius: 50%; /* Jika ingin membuat foto menjadi lingkaran */
+  }
+  #profile {
+    text-align: center; /* Menengahkan teks dan konten di dalam section profile */
+  }
+  
+  #profile h2 {
+    margin-bottom: 20px; /* Menambah sedikit jarak antara judul dan foto */
+  }
+  #profile h2 {
+    font-family: Poppins; /* Ganti Poppins dengan font lain jika diinginkan */
+    font-weight: 700; /* Ketebalan font, sesuaikan dengan keinginan */
+    font-size: 30px; /* Atur ukuran font */
+    color: #006eff; /* Warna font, sesuaikan dengan tema */
+    margin-bottom: 20px; /* Jarak antara teks dan foto */
+  }
+  #about {
+    margin: 50px 0; /* Jarak antara section ini dengan yang lain */
+    text-align: left; /* Rata kiri untuk teks */
+  }
+  
+  #about p {
+    font-size: 1em; /* Ukuran font untuk informasi */
+    line-height: 1.5; /* Jarak antar baris */
+  }
+  
+  #education {
+    text-align: center; /* Menengahkan judul dan konten */
+    margin: 50px 0; /* Jarak antara section ini dengan yang lain */
+  }
+  
+  .school-item {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen anak dalam kolom */
+    align-items: center; /* Menengahkan gambar dan teks */
+    margin: 20px; /* Jarak antara item sekolah */
+  }
+  
+  .school-logo {
+    width: 100px; /* Ukuran logo, bisa disesuaikan */
+    height: auto; /* Menjaga proporsi gambar */
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+  }
+  
+  
+  
+  
+  
+  #prestasi {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .prestasi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Jarak antara item */
+  }
+  
+  .prestasi-item {
+    background: rgba(255, 255, 255, 0); /* Latar belakang semi-transparan */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px; /* Lebar maksimum */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Bayangan */
+  }
+  
+  .prestasi-img {
+    width: 100%; /* Mengisi lebar maksimum */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 10px; /* Sudut membulat */
+  }
+  
+  h3 {
+    margin: 15px 0 10px; /* Margin untuk judul */
+    color: #3498db; /* Warna judul */
+  }
+  #projects {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Mengatur jarak antara item secara rata */
+    gap: 20px; /* Jarak antar project-item */
+  }
+  
+  .project-item {
+    background: rgba(255, 255, 255, 0.1); /* Latar belakang semi-transparan */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px; /* Membatasi lebar setiap item proyek */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek 3D */
+    text-align: left; /* Mengatur teks agar rata kiri */
+  }
+  
+  .project-img {
+    width: 100%; /* Membuat gambar sesuai dengan lebar container */
+    height: auto; /* Mempertahankan proporsi gambar */
+    border-radius: 10px; /* Sudut membulat pada gambar */
+  }
+  
+  h3 {
+    margin-top: 15px;
+    color: #3498db; /* Warna judul proyek */
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #000000; /* Warna teks deskripsi */
+    font-size: 14px; /* Ukuran font deskripsi */
+  }
+  
+  
+  
+  
+  /* Projects Section */
+  .projects {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-item a {
+    text-decoration: none; /* Hilangkan garis bawah default pada link */
+    color: inherit; /* Warna teks tetap mengikuti warna yang sudah diatur */
+    display: block; /* Membuat seluruh area proyek menjadi klik-able */
+    transition: transform 0.3s ease; /* Animasi halus saat di-hover */
+  }
+  
+  .project-item a:hover {
+    transform: scale(1.05); /* Sedikit memperbesar proyek saat di-hover */
+  }
+  
+  .project-img {
+    width: 50%; /* Gambar proyek mengambil lebar penuh dari container */
+    height: auto;
+    border-radius: 10px; /* Opsional: Memberikan sedikit radius di sudut gambar */
+  }
+  .social-logo {
+    width: 30px; /* Ukuran logo */
+    height: auto; /* Menjaga proporsi logo */
+    margin-right: px; /* Jarak antara logo dan teks */
+    vertical-align: middle; /* Menyelaraskan logo dengan teks */
+  }
+  
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    text-align: center; /* Menengahkan teks */
+    margin: 20px 0; /* Jarak atas dan bawah */
+    font-size: 0.9em; /* Ukuran font lebih kecil */
+    color: #666; /* Warna teks */
+    width: 100%; /* Memastikan footer mengambil lebar penuh */
+  }
+  
